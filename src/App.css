@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+.hero-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background: #f8f9fa;
+  padding-top: 80px;
+}
+
+.profile-img {
+  width: 340px;
+  height: 360px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 20px rgba(0,0,0,0.2);
+}
+
+.skill-card {
+  transition: 0.3s;
+}
+
+.skill-card:hover {
+  transform: translateY(-10px);
+}
+
+.project-card {
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+
+section {
+  padding: 80px 0;
+}
+
+.navbar {
+  padding: 15px;
+}
+
+
+
