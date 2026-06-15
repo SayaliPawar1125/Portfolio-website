@@ -83,7 +83,7 @@ function About() {
               </a>
             </div>
 
-            {/* Quick Highlights */}
+         
             <div className="row mt-5">
               <div className="col-md-4 mb-3">
                 <div className="card shadow-sm border-0 text-center">
