@@ -185,25 +185,22 @@ git branch -M main
 git push -u origin main
 ```
 
-### Deployment Using Netlify
+Deployment
 
-1. Login to Netlify
-2. Click "Add New Site"
-3. Import Git Repository
-4. Select GitHub Repository
-5. Configure Build Settings:
+The portfolio website was deployed using Vercel.
 
-Build Command:
+Deployment Steps
+Uploaded the source code to GitHub.
+Connected the GitHub repository to Vercel.
+Vercel automatically detected the Vite framework.
+Configured the build settings:
+Build Command: npm run build
+Output Directory: dist
+Deployed the application and verified all functionalities.
+Tested the website for responsiveness and cross-browser compatibility.
+Live Website
 
-```bash
-npm run build
-```
 
-Publish Directory:
-
-```text
-dist
-```
 
 6. Deploy Site
 
