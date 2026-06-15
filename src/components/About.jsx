@@ -5,7 +5,6 @@ function About() {
     <section id="about" className="hero-section">
       <div className="container">
 
-        {/* Resume Button */}
         <div className="text-end mb-4">
           <a
             href="/Resume.pdf"
@@ -28,7 +27,7 @@ function About() {
             />
           </div>
 
-          {/* About Content */}
+       
           <div className="col-lg-7">
             <h1 className="fw-bold mb-3">
               Hi, I'm Sayali Pawar
@@ -103,7 +102,7 @@ function About() {
                   </div>
                 </div>
               </div>
-
+ 
               <div className="col-md-4 mb-3">
                 <div className="card shadow-sm border-0 text-center">
                   <div className="card-body">
